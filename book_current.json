@@ -1,0 +1,19 @@
+{
+  "title": "苹果相关开发总结",
+  "description": "总结Apple苹果的Mac、iOS等平台的开发经验和心得，包括常见的开发工具",
+  "pluginsConfig": {
+    "github-buttons": {
+      "buttons": [
+        {
+          "repo": "apple_develop_summary"
+        }
+      ]
+    },
+    "sitemap-general": {
+      "prefix": "https://book.crifan.com/gitbook/apple_develop_summary/website/"
+    },
+    "toolbar-button": {
+      "url": "http://book.crifan.com/books/apple_develop_summary/pdf/apple_develop_summary.pdf"
+    }
+  }
+}
