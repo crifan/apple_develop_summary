@@ -1,8 +1,40 @@
 # ideviceinstaller
 
-ideviceinstaller：列出已安装的app信息
+在Mac中，想要查看（已通过USB连接上的）iOS设备中已安装的应用信息：
 
-在Mac中，想要列查看，通过USB连接上的iOS的设备中，已安装的应用信息，比如app名称，app包名`bundle id`等，可以用：
+* app名称
+* app包名=`bundle id`
+* app版本
+* 等
+
+可以用：
+
+* ideviceinstaller
+  * 作用：列出已安装的app信息
+
+## 安装ideviceinstaller
+
+```bash
+brew install --HEAD ideviceinstaller
+```
+
+安装后就有了：
+
+* `ideviceinstaller`
+  * 内部会自动安装额外的依赖
+    * `libusb`
+    * `libusbmuxd`
+    * `libimobiledevice`
+      * 其包含多个工具：
+        * `idevice_id`
+        * 等
+    * `libplist`
+    * `libtasn1`
+    * `libzip`
+
+## 使用
+
+语法：
 
 ```bash
 ideviceinstaller -l
@@ -36,5 +68,3 @@ com.netease.cloudmusic - 网易云音乐 876
 com.tencent.mqq - QQ 7.2.9.404
 。。。
 ```
-
-

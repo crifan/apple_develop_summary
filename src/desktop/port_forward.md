@@ -24,6 +24,12 @@
 
 ## iproxy
 
+安装：
+
+```bash
+brew install usbmuxd
+```
+
 语法
 
 ```bash
@@ -32,6 +38,12 @@ usage: iproxy LOCAL_TCP_PORT DEVICE_TCP_PORT [UDID]
 ```
 
 ## mobiledevice
+
+安装：
+
+```bash
+brew install mobiledevice
+```
 
 语法：
 

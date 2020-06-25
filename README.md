@@ -1,7 +1,7 @@
 # 苹果相关开发总结
 
-* 最新版本：`v1.0`
-* 更新时间：`20200620`
+* 最新版本：`v1.1`
+* 更新时间：`20200625`
 
 ## 鸣谢
 
@@ -9,7 +9,7 @@
 
 ## 简介
 
-总结Apple苹果的Mac、iOS等平台的开发经验和心得，包括常见的开发工具
+总结Apple苹果相关领域的开发经验和心得，包括常见的开发工具，比如XCode、xcodebuild、xcrun、ideviceinstaller、iproxy或mobiledevice的端口转发、libimobiledevice的idevice_id、system_profiler、instruments、security；以及移动端的iOS系统，比如自动化框架XCTest、官网文档简介、微信使用心得、真机iPhone开发心得；最后给出相关文档和参考资料。
 
 ## 源码+浏览+下载
 
