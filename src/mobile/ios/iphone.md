@@ -1,8 +1,35 @@
 # iPhone
 
-`iOS`设备中普通用户接触最多的就是`iPhone`了。
+TODO：
 
-此处整理相关开发心得。
+* 【已解决】已越狱iPhone的iOS中如何命令行创建一个大文件
+* 【记录】iPhone手机恢复还原出厂设置
+* 【已解决】iPhone中查看ARM版本：armv6、armv7
+* 
+* 设备识别
+  * 【已解决】iPhone插入Mac后提示：可能不支持此配件
+  * 【已解决】Mac无法识别插入的已越狱iPhone7
+* 状态栏
+  * 【已解决】iPhone中左上角状态栏中显示运营商的效果
+  * 【已解决】iPhone顶部状态栏中图标和信息的具体含义
+* app管理
+  * 【已解决】Mac中如何获取到iPhone中自带应用设置的bundle ID
+  * 【无法解决】越狱iPhone中把iOS的app移动到/Applications目录
+* 卡贴机
+  * 【已解决】iPhone卡贴机
+  * 【整理】购买二手iPhone测试机
+* 文件管理
+  * 【已解决】已越狱iOS中如何通过ssh从iPhone拷贝出文件
+* SSH
+  * 【已解决】给已越狱iPhone6修改ssh密码并开启ssh免密登录
+  * 【记录】给越狱iPhone7安装SSH并配置免密登录
+  * 【已解决】ssh登录iPhone失败：Host key verification failed
+* SSH证书
+  * 【已解决】Mac中删除已有ssh证书和已安装到iPhone中的ssh证书
+
+---
+
+`iOS`开发期间，用到的最多的设备就是`iPhone`了，此处整理iPhone的相关开发心得。
 
 ## 开发相关设置
 
@@ -23,10 +50,11 @@
 可以通过 控制台 查看iPhone真机的Log日志
 
 如何打开控制台：
+
 * 启动台Launch Pad -> 其他 -> 控制台
-    * ![launch_pad_control_panel](../../assets/img/launch_pad_control_panel.png)
-* XCode->Window->Devices and Simulators->Devices
-    * ![devices_and_simulators_devices](../../assets/img/devices_and_simulators_devices.jpg)
+  * ![launch_pad_control_panel](../../assets/img/launch_pad_control_panel.png)
+* Xcode->Window->Devices and Simulators->Devices
+  * ![devices_and_simulators_devices](../../assets/img/devices_and_simulators_devices.jpg)
 
 启动后，即可看到iPhone真机的log日志了：
 

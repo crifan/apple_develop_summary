@@ -5,21 +5,44 @@
 * 如果想要用`localhost`(或`127.0.0.1`)去访问（已连接到Mac上的iOS设备）
     * 需要做端口转发
         * `iproxy`
-            * 安装：`brew install --HEAD libimobiledevice`
-            * 语法：`iproxy <local port> <remote port> [udid]`
+            * 安装：
+              ```bash
+              brew install --HEAD libimobiledevice
+              ```
+            * 语法：
+              ```bash
+              iproxy <local port> <remote port> [udid]
+              ```
             * 用法举例：
-                * `iproxy 8100 8100`
-                    * 当前只连接一个iOS设备时，可以不指定，忽略`UDID`
-                * `iproxy 8100 8100 ed94089f3e34d5538065a695bfdf03dfbb3c5579`
-                    * 指定对应设备的UDID
-                      * `ed94089f3e34d5538065a695bfdf03dfbb3c5579`是此处的iPhone的UDID
-                    * 可以通过`idevice_id`得到
-                        * `CUR_UDID=$(idevice_id -l | head -n1)`
+              * 省略设备ID
+                ```bash
+                iproxy 8100 8100
+                ```
+                  * 当前只连接一个iOS设备时，可以不指定，忽略`UDID`
+              * 指定设备ID
+                ```bash
+                iproxy 8100 8100 ed94089f3e34d5538065a695bfdf03dfbb3c5579
+                ```
+                  * 指定对应设备的UDID
+                    * `ed94089f3e34d5538065a695bfdf03dfbb3c5579`是此处的iPhone的UDID
+                  * 可以通过`idevice_id`得到
+                    ```bash
+                    CUR_UDID=$(idevice_id -l | head -n1)
+                    ```
         * `mobiledevice`
-            * 安装：`brew install mobiledevice`
+            * 安装：
+              ```bash
+              brew install mobiledevice
+              ```
             * 用法：
-                * `mobiledevice tunnel 8100 8100`
-                * `mobiledevice tunnel -u ed94089f3e34d5538065a695bfdf03dfbb3c5579 8100 8100`
+                * 省略设备ID
+                  ```bash
+                  mobiledevice tunnel 8100 8100
+                  ```
+                * 指定设备ID
+                    ```bash
+                    mobiledevice tunnel -u ed94089f3e34d5538065a695bfdf03dfbb3c5579 8100 8100
+                    ```
                     * 同上，可通过`-u ios_device_udid`，指定对应iOS设备
 
 ## iproxy

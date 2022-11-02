@@ -1,7 +1,7 @@
 {
-  "latestVersion": "v1.1",
-  "lastUpdate": "20200625",
+  "latestVersion": "v1.3",
+  "lastUpdate": "20221102",
   "gitRepoName": "apple_develop_summary",
   "bookName": "苹果相关开发总结",
-  "bookDescription": "总结Apple苹果相关领域的开发经验和心得，包括常见的开发工具，比如XCode、xcodebuild、xcrun、ideviceinstaller、iproxy或mobiledevice的端口转发、libimobiledevice的idevice_id、system_profiler、instruments、security；以及移动端的iOS系统，比如自动化框架XCTest、官网文档简介、微信使用心得、真机iPhone开发心得；最后给出相关文档和参考资料。"
+  "bookDescription": "总结Apple苹果相关领域的开发经验和心得，包括通用的IDE和开发者账号，IDE包括Xcode和AppCode；Xcode包含xcodebuild、xrun等工具；以及桌面端的各种工具，比如ideviceinstaller、libimobiledevice的idevice_id、ideviceinfo，iproxy或mobiledevice的端口转发、以及system_profiler、instruments、security；以及移动端的iOS系统和iPhone设备开发，比如自动化框架XCTest、官网文档简介、微信使用心得、真机iPhone开发心得；以及相关子教程；最后给出相关文档和参考资料。"
 }
