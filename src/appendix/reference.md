@@ -29,4 +29,5 @@
 * [Appium for mac iOS环境配置 - 简书](https://www.jianshu.com/p/dfe19aab86f2)
 * [ios - How to check device id of iPhone simulator? - Stack Overflow](https://stackoverflow.com/questions/6952279/how-to-check-device-id-of-iphone-simulator)
 * [Xcode 工具链 - 简书](https://www.jianshu.com/p/2a351587f0ef)
+* [Objective-C 的第三方 IDE AppCode 怎么样？ - 知乎](https://www.zhihu.com/question/21824221)
 * 

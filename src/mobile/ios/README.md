@@ -1,16 +1,8 @@
 # iOS
 
-## iOS自动化
+## iOS自动化测试相关
 
-详见完整教程：
-
-[移动端自动化测试概览](https://book.crifan.com/books/mobile_automation_overview/website/)
-
-中的
-
-[iOS自动化测试利器：facebook-wda](https://book.crifan.com/books/ios_automation_facebook_wda/website/)
-
-## XCTest
+### XCTest
 
 * iOS最新测试框架是：`XCTest`
   * 别称：`XCUITest`
@@ -42,9 +34,9 @@
     * `pressButton`:
       * Sends a momentary press of a button on a physical remote control.
 
-## 一些心得
+### 一些心得
 
-### 找接口和函数时，可以充分利用官网自带的搜索
+#### 找接口和函数时，可以充分利用官网自带的搜索
 
 比如想要找哪些类中有mainScreen，可以搜：
 
@@ -63,7 +55,7 @@ https://developer.apple.com/search/?q=mainScreen
     * `XCTest` -> `XCUIScreen` -> `mainScreen`
         * The current device’s main screen.
 
-### 官网文档分语言的 -》 Swift和Objective-C 接口略有不同的
+#### 官网文档分语言的 -》 Swift和Objective-C 接口略有不同的
 
 * XCUIScreen
     * Swift
@@ -88,7 +80,7 @@ https://developer.apple.com/search/?q=mainScreen
 
 总之：注意看文档时所选择的语言，是Swift还是ObjC，不要搞错就好。
 
-### 测试Screen相关内容：XCUIScreen和UIScreen
+#### 测试Screen相关内容：XCUIScreen和UIScreen
 
 * XCUIScreen
     * 文档
@@ -119,16 +111,16 @@ return [UIScreen.mainScreen nativeScale];
 return [UIScreen.mainScreen bounds];
 return [UIScreen.mainScreen nativeBounds];
 ```
+
 才可以。
 
-## 微信
+### 微信
 
-### 连续多次崩溃会进入安全模式
+#### 连续多次崩溃会进入安全模式
 
 iOS中微信如果检测到连续崩溃了多次后，会进入**安全模式**：
 
 ![ios_weixin_crash_safe_mode](../../assets/img/ios_weixin_crash_safe_mode.png)
-
 
 ![safe_mode_clear_cache](../../assets/img/safe_mode_clear_cache.png)
 
