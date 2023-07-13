@@ -10,5 +10,5 @@
   * 相关（父）教程
     * [移动端APP开发总结 crifan.org](https://book.crifan.org/books/mobile_app_summary/website)
 * [Xcode开发心得](https://book.crifan.org/books/xcode_dev_summary/website/)
-  * [Xcode开发：调试心得 (crifan.org)](https://book.crifan.org/books/xcode_dev_debug_summary/website/)
-  * [Xcode内置调试器：LLDB (crifan.org)](https://book.crifan.org/books/xcode_debugger_lldb/website/)
+  * [Xcode开发：调试心得](https://book.crifan.org/books/xcode_dev_debug_summary/website/)
+  * [主流调试器：LLDB](https://book.crifan.org/books/popular_debugger_lldb/website/)
